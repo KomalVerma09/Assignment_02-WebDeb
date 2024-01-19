@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    /* border: 2px solid red; */
+    padding: 8px 3%;
+
+}
+
+/* ---------------------------------------NavBar start-------------------------------------- */
+
+.header{
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.headerFirstChild{
+    width: 70%;
+}
+.headerFirstChild,.headerSecondChild{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.headerSecondChild .loginSection:link{
+    text-decoration: none;
+  
+}
+.headerSecondChild .loginSection{
+    color: #3366CF;
+}
+
+.headerSecondChild .loginSection:hover{
+    text-decoration: underline;
+}
+.hamburgerContainer,.dottedContainer{
+    width: 20px;
+    height: 20px;
+}
+.hamburger, .dotted{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.dotted{
+    background-image: url('https://en.wikipedia.org/w/load.php?modules=skins.vector.icons&image=ellipsis&format=original&lang=en&skin=vector-2022&version=13zxl');
+   
+}
+.hamburger{
+    background-image: url("https://en.wikipedia.org/w/load.php?modules=skins.vector.icons&image=menu&format=original&lang=en&skin=vector-2022&version=13zxl");
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-image: url("https://en.wikipedia.org/static/images/icons/wikipedia.png");
+    background-repeat: no-repeat;
+
+
+    
+}
+
+.logoTextImg{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+.logoTextFirstImg, .logoTextSecondImg{
+    width: 120px;
+    background-repeat: no-repeat;
+}
+.logoTextFirstImg{
+    height: 18px;
+    background-image: url("https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg");
+
+}
+.logoTextSecondImg{
+    height: 13px;
+    background-image: url("https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg");
+}
+
+.inputBoxContainer{
+    width: 500px;
+    display: flex;
+}
+
+.inputBox{
+    /* display: flex; */
+    position: relative;
+    width: 100%;
+    
+}
+
+.inputBox input{
+    /* width: 300px; */
+    width: 70%;
+    padding: 5px 35px;
+    color: gainsboro;
+
+}
+input:focus{
+    outline: 1px solid blue;
+    /* color: black; */
+    color: black;
+}
+.magnifier{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    /* color: red; */
+    /* background-color: red; */
+
+}
+.searchBtn{
+    padding: 5px;
+    font-weight: bolder;
+}
+
+/* ---------------------------------------NavBar end-------------------------------------- */
+
+
+/* ---------------------------------------Body Part-------------------------------------- */
+.bodyPart{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.bodyContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 80%;
+    float: right;
+    /* background-color: orange; */
+}
+.stickyNavContainer{
+    position: sticky;
+    top: 10px;
+    width: 17%;
+    padding-right: 10px;
+    float: left;
+
+}
+.stickyNav{
+    top: 0px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0px 6% 0px 1% ;
+}
+
+a:link{
+    
+    text-decoration: none;
+}
+.stickyNav a, .middlePartSecondNav a{
+    color: #5485D7;
+}
+.middlePartSecondNav a{
+    padding: 10px; 
+}
+.middlePartSecondNav a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #5485D7;
+}
+
+.stickyNav h4{
+    padding: 3px 0px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.stickyNav #top{
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    
+    text-decoration: underline;
+}
+
+
+.middlePart{
+    width: 85%;
+}
+.sectionName, .middlePartSecondNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.sectionName-1{
+    font-family: serif;
+    font-size: 30px;
+}
+.sectionName-2{
+    font-family: serif;
+    font-size: 25px;
+}
+.statusContainer{
+    background-color: gainsboro;
+}
+.language,
+.status{
+    padding: 4px;
+    border-radius: 5px;
+    color: #5485D7;
+    font-weight: bold;
+
+}
+.language:hover{
+    background-color: #e7eef6;
+    
+}
+.middlePartSecondNav{
+    padding: 10px 0px;
+}
+
+
+
+.paraContainer{
+    font-size: 14px;
+    width: 74%;
+    word-spacing: 1px;
+    line-height: 1.5;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.scrollingPart{
+    display: flex;  
+    justify-content: space-between;
+}
+.imageTable{
+    width: 100%;
+    /* background-color: red; */
+ }
+ 
+.imagePart{
+    margin-top:50px;
+    min-width: 200px;
+}
+.imageTable{
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+.peacockContainer,.peahenContainer,.statusImgContainer{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:3px;
+}
+.peacockContainer td,.peahenContainer td, .statusImgContainer td,.binomialImgContainer td{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.peacock,.peahen,.statusImg,.binomialImg{
+    height: 130px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.peacock{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Peacock%2C_East_Park%2C_Hull_-_panoramio.jpg");
+    background-size: cover;
+    
+}
+.peahen{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Pavo_cristatus_-Tierpark_Hagenbeck%2C_Hamburg%2C_Germany_-female-8a_%281%29.jpg");
+    
+}
+.statusImg{
+    height: 60px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Status_iucn3.1_LC.svg/330px-Status_iucn3.1_LC.svg.png");
+}
+.binomialImg{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Indian_Peacock_Range.svg/330px-Indian_Peacock_Range.svg.png");
+}
+.peacockDesc,.peahenDesc, .statusImgDesc,.binomialDesc{
+    font-size: 12px;
+
+}
+
+
+.scientific_table{
+    width: 100%;
+}
+
+.scientific_Items{
+    display: flex;
+    justify-content:space-between ;
+}

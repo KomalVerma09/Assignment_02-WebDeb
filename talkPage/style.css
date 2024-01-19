@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.paraContainer{
+    width: 98%;
+}
+.para3,.para5{
+    padding-left: 30px;
+}
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+.cardFirstTable{
+    border: 1px solid #c0c090;
+    background-color: #f8eaba;;
+    width: 82%;
+    padding: 10px;
+    margin: auto;
+}
+.cardFirstTable tr{
+    padding: 15px;
+}
+.cardFirstChild td{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+}
+.cardFirstChildLogo,.icon1,.icon2{
+    height: 31px;
+    width: 35px;
+    /* background-color: orange; */
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cardFirstChildLogo{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/WikiProject_Council_with_transparent_background.svg/53px-WikiProject_Council_with_transparent_background.svg.png");
+}
+.icon2{
+    height: 23px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/53px-Flag_of_India.svg.png");
+}
+.icon1{
+    height: 23px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ruddy-turnstone-icon.png/53px-Ruddy-turnstone-icon.png");
+}
+
+.cardSecondChild .firstrow,.cardSecondChild .secondrow{
+    height: 30px;
+    width: 98%;
+    /* #f8eaba; */
+    
+}
+.firstrow,.secondrow{
+    display: flex;
+    padding: 0px 10px;
+
+    border: 1px solid #c0c090;
+    background-color: #FFFAEF;
+    justify-content: space-between;
+    
+}
+.firstrow>div,.secondrow>div{
+    /* background-color: yellow; */
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.firstrow a,.secondrow a{
+    /* background-color: red; */
+    font-weight: bold;
+    color: #5485D7;
+}
+.bClass,.highimportance{
+    /* background-color: #DFFFBF; */
+    padding: 0px 5px;
+    border-radius: 50px;
+    /* #FFCCFF */
+}
+.bClass{
+    background-color: #dfffbf;
+}
+.highimportance{
+    background-color: #ffccff;
+}
+/* -----------------------------------------------first table last---------------------------------------- */
+
+
+
+.cardSecondTable,.cardThirdTable{
+    border: 1px solid #c0c090;
+    background-color: #f8eaba;;
+    width: 82%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+
+.cardSecondChildLogo,.cardThirdChildLogo{
+    height: 45px;
+    min-width: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Symbol_unsupport_vote.svg/68px-Symbol_unsupport_vote.svg.png");
+}
+.cardSecondChildLogo{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Symbol_unsupport_vote.svg/68px-Symbol_unsupport_vote.svg.png");
+}
+.cardThirdChildLogo{
+    min-width: 50px;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Wikipedia-Ambassador-Program-Logo.png/75px-Wikipedia-Ambassador-Program-Logo.png");
+}
+
+.cardSecondChild td, .cardThirdChild td{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ThirdTablePara{
+    width: 100%;
+}
