@@ -222,6 +222,18 @@ a:hover{
 .statusContainer{
     background-color: gainsboro;
 }
+.peafowl_text{
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    /* color: #5485D7; */
+    font-weight: bold;
+
+    background-color: #EBEBD2;
+    
+}
 .language,
 .status{
     padding: 4px;
@@ -261,7 +273,7 @@ a:hover{
  }
  
 .imagePart{
-    margin-top:50px;
+    margin-top:100px;
     min-width: 200px;
 }
 .imageTable{
@@ -307,15 +319,19 @@ a:hover{
 }
 .peacockDesc,.peahenDesc, .statusImgDesc,.binomialDesc{
     font-size: 12px;
+    padding: 10px 0px;
 
 }
 
 
 .scientific_table{
     width: 100%;
+    /* background-color: red; */
 }
 
 .scientific_Items{
     display: flex;
     justify-content:space-between ;
+    /* background-color: blue; */
+    margin-bottom: 5px;
 }
